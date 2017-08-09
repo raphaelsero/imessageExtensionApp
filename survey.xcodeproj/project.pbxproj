@@ -13,6 +13,9 @@
 		A03661041F3A65E200631735 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03661031F3A65E200631735 /* MessagesViewController.swift */; };
 		A03661071F3A65E200631735 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03661051F3A65E200631735 /* MainInterface.storyboard */; };
 		A03661091F3A65E200631735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03661081F3A65E200631735 /* Assets.xcassets */; };
+		A03661171F3A662C00631735 /* AddMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03661161F3A662B00631735 /* AddMessageViewController.swift */; };
+		A03661191F3A66B800631735 /* MessageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03661181F3A66B800631735 /* MessageDetailsViewController.swift */; };
+		A036611B1F3A673900631735 /* ugudbro.png in Resources */ = {isa = PBXBuildFile; fileRef = A036611A1F3A673900631735 /* ugudbro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A03661061F3A65E200631735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		A03661081F3A65E200631735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A036610A1F3A65E200631735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03661161F3A662B00631735 /* AddMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMessageViewController.swift; sourceTree = "<group>"; };
+		A03661181F3A66B800631735 /* MessageDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailsViewController.swift; sourceTree = "<group>"; };
+		A036611A1F3A673900631735 /* ugudbro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ugudbro.png; path = ../../../Downloads/ugudbro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +110,11 @@
 			children = (
 				A03661031F3A65E200631735 /* MessagesViewController.swift */,
 				A03661051F3A65E200631735 /* MainInterface.storyboard */,
+				A036611A1F3A673900631735 /* ugudbro.png */,
 				A03661081F3A65E200631735 /* Assets.xcassets */,
 				A036610A1F3A65E200631735 /* Info.plist */,
+				A03661161F3A662B00631735 /* AddMessageViewController.swift */,
+				A03661181F3A66B800631735 /* MessageDetailsViewController.swift */,
 			);
 			path = MessagesExtension;
 			sourceTree = "<group>";
@@ -203,6 +212,7 @@
 			files = (
 				A03661091F3A65E200631735 /* Assets.xcassets in Resources */,
 				A03661071F3A65E200631735 /* MainInterface.storyboard in Resources */,
+				A036611B1F3A673900631735 /* ugudbro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03661171F3A662C00631735 /* AddMessageViewController.swift in Sources */,
+				A03661191F3A66B800631735 /* MessageDetailsViewController.swift in Sources */,
 				A03661041F3A65E200631735 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
