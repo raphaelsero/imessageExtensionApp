@@ -419,6 +419,7 @@
 				A036610F1F3A65E200631735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A03661111F3A65E200631735 /* Build configuration list for PBXNativeTarget "survey" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				A03661131F3A65E200631735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
